@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <unistd.h>
+
 /**
  * main - A program that works on unix
- * Return: 1
+ * Return: 1(succesful)
  */
 int main(void)
 {
