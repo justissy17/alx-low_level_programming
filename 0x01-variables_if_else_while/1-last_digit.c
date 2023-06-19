@@ -2,9 +2,10 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - a code that prints last digit
+ * main - entry point
  * Return: 0(successful)
  */
+
 int main(void)
 {
 	int n;
@@ -19,11 +20,11 @@ int main(void)
 	}
 	else if (ldn == 0)
 	{
-	        printf("Last digit of %d is %d and is 0\n", n, ldn);
+		printf("Last digit of %d is %d and is 0\n", n, ldn);
 	}
-	else 
+	else
 	{
-		 printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ldn);
-		 return (0);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, ldn);
 	}
+	return (0);
 }
