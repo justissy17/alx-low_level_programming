@@ -5,7 +5,7 @@
  * _strcat - it concatenates two numbers
  * @dest: destination string
  * @src: source string
- * Return: a pointer of the destination string
+ * Return: dest
  */
 
 char *_strcat(char *dest, char *src)
